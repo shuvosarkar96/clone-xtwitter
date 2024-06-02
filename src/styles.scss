@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons+Outlined');
+
+.custom-placeholder::placeholder {
+    color: rgb(107, 114, 128);
+}
