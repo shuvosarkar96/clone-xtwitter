@@ -233,23 +233,23 @@
 
       <!-- news feed starts here -->
       <div id="feed">
-        
-        <div id="post" class="m-4 flex cursor-pointer">
+        <!-- Post-1 -->
+        <div id="post" class="mx-4 mt-4 flex cursor-pointer">
           <div id="-left-pp">
-            <img src="assets/n1.png" alt="Nothing logo" class="rounded-full w-32" />
+            <img src="assets/n1.png" alt="Nothing logo" class="rounded-full w-32 hover:bg-gray-500 hover:opacity-80 transition-all duration-300" />
           </div>
           <div id="right-section" class="ml-2">
             <div id="ac-section" class="flex items-center justify-between">
               <div id="ac-info" class="flex items-center">
                 <div id="ac-name" class="flex items-center space-x-[2px]">
-                  <span id="name" class="font-bold">Nothing</span>
+                  <span id="name" class="font-bold hover:underline">Nothing</span>
                   <span id="badge">
                     <img src="assets/Badge.svg" alt="verification badge" class="w-4">
                   </span>
                 </div>
-                <div id="username-time" class="flex items-center space-x-1 ml-1">
+                <div id="username-time" class="flex items-center space-x-1 ml-1 text-gray-500">
                   <span id="username">&#64;nothing</span>
-                  <span id="time">· 6h</span>
+                  <span id="time" class="hover:underline">· 6h</span>
                 </div>
               </div>
               <div id="more">
@@ -265,26 +265,26 @@
             <div id="images">
               <img src="assets/n2.jpeg" alt="Nohting 2a" class="rounded-[18px] border border-gray-800">
             </div>
-            <div id="actions" class="flex justify-between my-2 text-gray-500">
-              <div id="comment" class="flex items-center">
+            <div id="actions" class="flex justify-between my-1 text-gray-500">
+              <div id="comment" class="flex items-center hover:text-blue-500 transition-all duration-300">
                 <a href="" class="flex items-center p-2 hover:rounded-full hover:bg-gray-900 transition-all duration-300">
                   <span class="material-symbols-outlined text-lg text-gray-500 leading-none hover:text-blue-500 transition-all duration-300">chat_bubble</span>
                 </a>
                 <span class="text-[13px]">52</span>
               </div>
-              <div id="repost" class="flex items-center">
+              <div id="repost" class="flex items-center hover:text-green-500 transition-all duration-300">
                 <a href="" class="flex items-center p-2 hover:rounded-full hover:bg-[rgba(34,197,94,0.15)] transition-all duration-300">
                   <span class="material-symbols-outlined text-lg text-gray-500 leading-none hover:text-green-500 transition-all duration-300">cached</span>                  
                 </a>
                 <span class="text-[13px]">153</span>
               </div>
-              <div id="like" class="flex items-center">
+              <div id="like" class="flex items-center hover:text-red-500 transition-all duration-300">
                 <a href="" class="flex items-center p-2 hover:rounded-full hover:bg-[rgba(239,68,68,0.15)] transition-all duration-300">
                   <span class="material-symbols-outlined text-lg text-gray-500 leading-none hover:text-red-500 transition-all duration-300">favorite</span>                  
                 </a>
                 <span class="text-[13px]">2.3K</span>
               </div>
-              <div id="view" class="flex items-center">
+              <div id="view" class="flex items-center hover:text-blue-500 transition-all duration-300">
                 <a href="" class="flex items-center p-2 hover:rounded-full hover:bg-gray-900 transition-all duration-300">
                   <span class="material-symbols-outlined text-lg text-gray-500 leading-none hover:text-blue-500 transition-all duration-300">bar_chart_4_bars</span>                  
                 </a>
@@ -299,6 +299,145 @@
             </div>
           </div>
         </div>
+
+        <hr class="border-gray-800" />
+        <!-- Post-2 -->
+        <div id="post" class="mx-4 mt-4 flex cursor-pointer">
+          <div id="-left-pp">
+            <img src="assets/b1.jpeg" alt="Nothing logo" class="rounded-full w-28 hover:bg-gray-500 hover:opacity-80 transition-all duration-300" />
+          </div>
+          <div id="right-section" class="ml-2">
+            <div id="ac-section" class="flex items-center justify-between">
+              <div id="ac-info" class="flex items-center">
+                <div id="ac-name" class="flex items-center space-x-[2px]">
+                  <span id="name" class="font-bold hover:underline">Nothing</span>
+                  <span id="badge">
+                    <img src="assets/Badge.svg" alt="verification badge" class="w-4">
+                  </span>
+                </div>
+                <div id="username-time" class="flex items-center space-x-1 ml-1 text-gray-500">
+                  <span id="username">&#64;nothing</span>
+                  <span id="time" class="hover:underline">· 6h</span>
+                </div>
+              </div>
+              <div id="more">
+                <a href="" class="flex items-center p-1 hover:rounded-full hover:bg-gray-900 transition-all duration-300">
+                  <span class="material-symbols-outlined text-xl text-gray-500 leading-none hover:text-blue-500 transition-all duration-300">more_horiz</span>
+                </a>
+              </div>
+            </div>
+            <div id="caption" class="leading-5 mb-3">
+              <p>My upcoming memoir Source Code is all about the lessons and experiences that laid the foundation for everything in my life that followed.</p>
+            </div>
+            <div id="images">
+              <img src="assets/b2.jpg" alt="Nohting 2a" class="rounded-[18px] border border-gray-800">
+            </div>
+            <div id="actions" class="flex justify-between my-1 text-gray-500">
+              <div id="comment" class="flex items-center hover:text-blue-500 transition-all duration-300">
+                <a href="" class="flex items-center p-2 hover:rounded-full hover:bg-gray-900 transition-all duration-300">
+                  <span class="material-symbols-outlined text-lg text-gray-500 leading-none hover:text-blue-500 transition-all duration-300">chat_bubble</span>
+                </a>
+                <span class="text-[13px]">23</span>
+              </div>
+              <div id="repost" class="flex items-center hover:text-green-500 transition-all duration-300">
+                <a href="" class="flex items-center p-2 hover:rounded-full hover:bg-[rgba(34,197,94,0.15)] transition-all duration-300">
+                  <span class="material-symbols-outlined text-lg text-gray-500 leading-none hover:text-green-500 transition-all duration-300">cached</span>                  
+                </a>
+                <span class="text-[13px]">13</span>
+              </div>
+              <div id="like" class="flex items-center hover:text-red-500 transition-all duration-300">
+                <a href="" class="flex items-center p-2 hover:rounded-full hover:bg-[rgba(239,68,68,0.15)] transition-all duration-300">
+                  <span class="material-symbols-outlined text-lg text-gray-500 leading-none hover:text-red-500 transition-all duration-300">favorite</span>                  
+                </a>
+                <span class="text-[13px]">1.1K</span>
+              </div>
+              <div id="view" class="flex items-center hover:text-blue-500 transition-all duration-300">
+                <a href="" class="flex items-center p-2 hover:rounded-full hover:bg-gray-900 transition-all duration-300">
+                  <span class="material-symbols-outlined text-lg text-gray-500 leading-none hover:text-blue-500 transition-all duration-300">bar_chart_4_bars</span>                  
+                </a>
+                <span class="text-[13px]">9K</span>
+              </div>
+              <div id="bookmark-share" class="flex items-center">
+                <a href="" class="flex items-center p-2 hover:rounded-full hover:bg-gray-900 transition-all duration-300">
+                  <span class="material-symbols-outlined text-xl text-gray-500 leading-none hover:text-blue-500 transition-all duration-300">bookmark</span>                  
+                </a>
+                <span class="material-symbols-outlined text-xl text-gray-500 leading-none hover:text-blue-500 transition-all duration-300">upload</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="border-gray-800" />
+        <!-- Post-3 -->
+        <div id="post" class="mx-4 mt-4 flex cursor-pointer">
+          <div id="-left-pp">
+            <img src="assets/e1.jpg" alt="Nothing logo" class="rounded-full w-24 hover:bg-gray-500 hover:opacity-80 transition-all duration-300" />
+          </div>
+          <div id="right-section" class="ml-2">
+            <div id="ac-section" class="flex items-center justify-between">
+              <div id="ac-info" class="flex items-center">
+                <div id="ac-name" class="flex items-center space-x-[2px]">
+                  <span id="name" class="font-bold hover:underline">Elvis Presley</span>
+                  <span id="badge">
+                    <img src="assets/Badge.svg" alt="verification badge" class="w-4">
+                  </span>
+                </div>
+                <div id="username-time" class="flex items-center space-x-1 ml-1 text-gray-500">
+                  <span id="username">&#64;nothing</span>
+                  <span id="time" class="hover:underline">· 6h</span>
+                </div>
+              </div>
+              <div id="more">
+                <a href="" class="flex items-center p-1 hover:rounded-full hover:bg-gray-900 transition-all duration-300">
+                  <span class="material-symbols-outlined text-xl text-gray-500 leading-none hover:text-blue-500 transition-all duration-300">more_horiz</span>
+                </a>
+              </div>
+            </div>
+            <div id="caption" class="leading-5 mb-3">
+              <p>My upcoming memoir Source Code is all about the lessons and experiences that laid the foundation for everything in my life that followed.</p>
+            </div>
+            <div id="images">
+              <div class="video-container mx-auto rounded-3xl">
+                <iframe src="https://www.youtube.com/embed/vGJTaP6anOU?si=O_oxGP1NU9THS8X3" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div id="actions" class="flex justify-between my-1 text-gray-500">
+              <div id="comment" class="flex items-center hover:text-blue-500 transition-all duration-300">
+                <a href="" class="flex items-center p-2 hover:rounded-full hover:bg-gray-900 transition-all duration-300">
+                  <span class="material-symbols-outlined text-lg text-gray-500 leading-none hover:text-blue-500 transition-all duration-300">chat_bubble</span>
+                </a>
+                <span class="text-[13px]">23K</span>
+              </div>
+              <div id="repost" class="flex items-center hover:text-green-500 transition-all duration-300">
+                <a href="" class="flex items-center p-2 hover:rounded-full hover:bg-[rgba(34,197,94,0.15)] transition-all duration-300">
+                  <span class="material-symbols-outlined text-lg text-gray-500 leading-none hover:text-green-500 transition-all duration-300">cached</span>                  
+                </a>
+                <span class="text-[13px]">138K</span>
+              </div>
+              <div id="like" class="flex items-center hover:text-red-500 transition-all duration-300">
+                <a href="" class="flex items-center p-2 hover:rounded-full hover:bg-[rgba(239,68,68,0.15)] transition-all duration-300">
+                  <span class="material-symbols-outlined text-lg text-gray-500 leading-none hover:text-red-500 transition-all duration-300">favorite</span>                  
+                </a>
+                <span class="text-[13px]">3.6B</span>
+              </div>
+              <div id="view" class="flex items-center hover:text-blue-500 transition-all duration-300">
+                <a href="" class="flex items-center p-2 hover:rounded-full hover:bg-gray-900 transition-all duration-300">
+                  <span class="material-symbols-outlined text-lg text-gray-500 leading-none hover:text-blue-500 transition-all duration-300">bar_chart_4_bars</span>                  
+                </a>
+                <span class="text-[13px]">99K</span>
+              </div>
+              <div id="bookmark-share" class="flex items-center">
+                <a href="" class="flex items-center p-2 hover:rounded-full hover:bg-gray-900 transition-all duration-300">
+                  <span class="material-symbols-outlined text-xl text-gray-500 leading-none hover:text-blue-500 transition-all duration-300">bookmark</span>                  
+                </a>
+                <span class="material-symbols-outlined text-xl text-gray-500 leading-none hover:text-blue-500 transition-all duration-300">upload</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="border-gray-800" />
+
       </div>
     </div>
     <!-- End middle -->
