@@ -89,10 +89,14 @@
         </ul>
       </div>
 
-      <div class="post-btn flex justify-end px-10 py-3 sticky top-[605px]">
+      <div class="post-btn flex md:justify-end justify-center md:px-10 py-3 sticky md:top-[605px] top-[3/4]">
         <button
-          class="bg-[#1D9BF0] hover:bg-[#1A8CD8] transition-all duration-300 px-24 py-3 rounded-full text-lg text-slate-200 font-bold">
+          class="bg-[#1D9BF0] hover:bg-[#1A8CD8] transition-all duration-300 px-24 py-3 rounded-full text-lg text-slate-200 font-bold hidden md:block">
           Post
+        </button>
+        <button
+          class="bg-[#1D9BF0] hover:bg-[#1A8CD8] transition-all duration-300 px-1 py-1 rounded-full text-lg text-slate-200 font-bold md:hidden flex">
+          <span class="material-symbols-outlined w-6 items-center">add</span>
         </button>
       </div>
 
@@ -440,7 +444,7 @@
     </div>
     <!-- End middle -->
 
-    <div class="right w-full text-slate-200">
+    <div class="right w-full text-slate-200 hidden md:block">
       <div
         class="search mx-7 my-2 w-2/3 flex items-stretch bg-gray-900 py-2 rounded-full hover:bg-gray-800 transition-all duration-300"
       >
